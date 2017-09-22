@@ -1,0 +1,6 @@
+file1 = open('D:\status.txt','r')
+lines = file1.readlines()
+print(type(lines))
+file1.close()
+file2 = open('D:\status_new.txt','w')
+file2.write(str(lines))
